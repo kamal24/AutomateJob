@@ -120,9 +120,9 @@ public class AutomateJob {
             if(ok_size!=0)
                 driver.findElement(By.id(emailId+"New")).sendKeys("kmlgrg2425@gmail.com");
             else
-                driver.findElement(By.id(emailId)).sendKeys("kmlgrg2425@gmail.com");
+                driver.findElement(By.id(emailId)).sendKeys("email");
 
-            driver.findElement(By.id(passwordId)).sendKeys("Kamal2481993");
+            driver.findElement(By.id(passwordId)).sendKeys("password");
             driver.findElement(By.cssSelector("button[class='blueBtn']")).click();
 
             Thread.sleep(3000);
