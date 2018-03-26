@@ -118,7 +118,7 @@ public class AutomateJob {
             // wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"lgnFrm\"]/div[8]/button")));
             int ok_size =  driver.findElements(By.id(emailId+"New")).size();
             if(ok_size!=0)
-                driver.findElement(By.id(emailId+"New")).sendKeys("kmlgrg2425@gmail.com");
+                driver.findElement(By.id(emailId+"New")).sendKeys("email");
             else
                 driver.findElement(By.id(emailId)).sendKeys("email");
 
